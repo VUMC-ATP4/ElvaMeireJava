@@ -3,7 +3,7 @@ import java.sql.SQLOutput;
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("Hello Elva Java 1 lekcijas");
+        System.out.println("Hello Elva Java 15 lekcijas");
 
         //EN:Integer - LV Vesels skaitlis
         int x = 5;
