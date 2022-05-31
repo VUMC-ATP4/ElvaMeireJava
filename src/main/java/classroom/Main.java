@@ -1,3 +1,5 @@
+package classroom;
+
 import java.sql.SQLOutput;
 
 public class Main {
