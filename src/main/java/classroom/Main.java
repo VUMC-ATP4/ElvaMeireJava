@@ -21,6 +21,7 @@ public class Main {
         System.out.println(y);
         System.out.println("x=y ir vienāds ar:");
         System.out.println(x+y);
+
         //[Mainīgā tips] [Mainīgā nosaukums] = [Vērtība];
         //Vārdi un teikumi Java valodā tiek saglabāti mainīgā tipā 'String'
         String dogName = "Reksis";
