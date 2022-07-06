@@ -8,17 +8,17 @@ public class UzdevumsVizitkartes {
         //var pievienot rakstīt šādi 1
         //Scanner scanner = new Scanner(System.in);
 
-        printetVizitkarti("Janis","Kreilis", "+371 2569852",1996);
-        printetVizitkarti("Kārlis","Zeltiņš", "+371 2560852", 1993);
-        printetVizitkarti("Inese","Valge", "+371 2569853", 1995);
-        printetVizitkarti("Oskars","Jasmins", "+371 2569842", 1994);
-        luksafors("violeta");
+        printetVizitkarti("Janis", "Kreilis", "+371 2569852", 1996);
+        printetVizitkarti("Kārlis", "Zeltiņš", "+371 2560852", 1993);
+        printetVizitkarti("Inese", "Valge", "+371 2569853", 1995);
+        printetVizitkarti("Oskars", "Jasmins", "+371 2569842", 1994);
+        //luksafors("violeta");
         //int summa =18;  sum metodes rezultāts ir tas pats int
-        sum(5,3,10);
+        sum(5, 3, 10);
 
         //otro vizitkarti mes varam izdrukāt divos veidos
-        System.out.println(printBuisnessCardTwo("Oskars","Jasmins", "+371 2569842", 1994));
-        String oskaraVizitKarte = printBuisnessCardTwo("Oskars","Jasmins", "+371 2569842", 1994);
+        System.out.println(printBuisnessCardTwo("Oskars", "Jasmins", "+371 2569842", 1994));
+        String oskaraVizitKarte = printBuisnessCardTwo("Oskars", "Jasmins", "+371 2569842", 1994);
         System.out.println(oskaraVizitKarte);
 
 
@@ -32,8 +32,8 @@ public class UzdevumsVizitkartes {
         //Metode kas pieņem 3 veselus skaitlus un atgriez so skaitlu summu
 
 
-       // String name = "Juris";
-       // String surname = "Kreilis";
+        // String name = "Juris";
+        // String surname = "Kreilis";
         // String telephone = "+371 6658965";
         // int dateOfBirth = 1990;
         // System.out.println("Vizītkarte");
@@ -44,20 +44,20 @@ public class UzdevumsVizitkartes {
         // System.out.println("Dzimšanas gads: " + dateOfBirth);
         // System.out.println("###########");
     }
-    static int sum(int asdas, int yyisjdj, int daksks){
+
+    static int sum(int asdas, int yyisjdj, int daksks) {
         return asdas + yyisjdj + daksks;
     }
 
 
-
-    static void printetVizitkarti(String name, String surname, String telephone, int dateOfBirth){
+    static void printetVizitkarti(String name, String surname, String telephone, int dateOfBirth) {
         //String name = "Juris";
         //String surname = "Kreilis";
         //String telephone = "+371 6658965";
         //int dateOfBirth = 1990;
         System.out.println("Vizītkarte");
         System.out.println("##########");
-        System.out.println("Vārds: "  + name);
+        System.out.println("Vārds: " + name);
         System.out.println("Uzvārds: " + surname);
         System.out.println("Telefona numurs: " + telephone);
         System.out.println("Dzimšanas gads: " + dateOfBirth);
@@ -70,18 +70,8 @@ public class UzdevumsVizitkartes {
         return "#######\nVizītkarte\nVārds: " + name + "\nUzvārds: " + surname + "" + "\nTelefona nr: " + telephone + "\nDzimšanas gads: " + dateOfBrith + "\n#########";
     }
 
-    public static void luksafors(String krasa){
-        if(krasa.equals("sarkana")){
-            System.out.println("STOP. STĀVI!");
-        }else if(krasa.equals("zaļa")){
-            System.out.println("EJ.");
-        } else if (krasa.equals("dzeltena")) {
-            System.out.println("GATAVOJIES. UZMANĪBU!");
-        }else{
-            System.out.println("Tāda krāsa nav luksaforā!");
-        }
 
-        //  static void luksaforsDIVI(){
+    //  static void luksaforsDIVI(){
 //            Scanner scanner = new Scanner(System.in);
 //            String zals = "Zaļš";
 //            String dzeltens = "Dzeltens";
@@ -103,21 +93,10 @@ public class UzdevumsVizitkartes {
 //            }
 
 
+}
 
 
 
-
-
-
-
-
-
-
-
-        }
-
-
-    }
 
 
 
