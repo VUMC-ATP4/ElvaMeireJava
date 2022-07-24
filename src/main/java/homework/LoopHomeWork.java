@@ -53,11 +53,11 @@ public class LoopHomeWork {
                 }
 
 
-                char valuta = 'S';
+                char valuta = '$';
                 do {
-                        System.out.println("Ievadi dollara valūtas zīmi: " );
+                        System.out.println("Ievadi dollara valūtas zīmi: "  );
                         valuta = (char) scanner.nextInt(valuta);
-                } while (valuta == 'S');
+                } while (valuta == '$');
 
                 // 4. uzdevums
 
